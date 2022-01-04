@@ -1,25 +1,18 @@
-var realtyincome = document.getElementsByClassName("realty-income");
-realtyincome[0].innerHTML = core[0].value
+var core_balance
 
-var vanguard = document.getElementsByClassName("vanguard");
-vanguard[0].innerHTML = core[1].name
+let core_value = document.getElementsByClassName("core-value");
+let core_difference = document.getElementsByClassName("core-difference");
 
-var apple = document.getElementsByClassName("apple");
-apple[0].innerHTML = core[2].value
+for (i = 0; i < core.length; i++) {
+    core_value[i].innerHTML = "£" + core[i].value;
+    core_difference[i].innerHTML = "£" + core[i].gainLoss;
 
-data = document.getElementsByClassName("data")
-
-for (i = 0; i < data.length; i++) {
-
-    if (data[i] < 0) {
-        data[i].style.color = "red";
+    if (core[i].gainLoss < 0) {
+        core_difference[i].style.color = "red";
     } else {
-        data[i].style.color = "green";
+        core_difference[i].style.color = "green";
     }
 
+    parseInt(core_balance) = parseInt(core[i].value)
+    console.log(core_balance)
 }
-
-//document.getElementById("core-balence").innerHTML
-
-
-
