@@ -324,7 +324,7 @@ var dividend = [
         shares:"0.015",
         value:"7.22",
         difference:"-0.02",
-        percent:"6.2",
+        percent:"6.2%",
         target:"6.2%",
         annualDividend:"$6.60",
         dividendDate:[2, 5, 8, 11]
