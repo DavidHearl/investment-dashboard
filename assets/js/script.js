@@ -14,10 +14,10 @@ let totalGain = document.getElementById("total-gain");
 let coreBalance = document.getElementById("core-balance");
 let coreGain = document.getElementById("core-gain");
 
-let generalBalance = document.getElementById("core-balance");
+let generalBalance = document.getElementById("general-balance");
 let generalGain = document.getElementById("general-gain");
 
-let dividendBalance = document.getElementById("core-balance");
+let dividendBalance = document.getElementById("dividend-balance");
 let dividendGain = document.getElementById("dividend-gain");
 
 // Core
