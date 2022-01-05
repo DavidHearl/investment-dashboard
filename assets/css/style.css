@@ -18,11 +18,11 @@ body{
 }
 
 #general{
-    background-color: orange;
+    background-color: rgb(182, 124, 0);
 }
 
 #dividend{
-    background-color: lightskyblue;
+    background-color: rgb(0, 109, 182);
 }
 
 .test{
